@@ -435,7 +435,21 @@ class OpenSourceLeg:
     def is_homed(self) -> bool:
         return self._is_homed
 
+class DephyExo:
+    """
+    DephyExo class: This class
+    """
 
+    def __init__(self) -> None:
+        pass
+
+    def __enter__(self) -> None:
+        pass
+
+    def __exit__(self, type=None, value=None, tb=None) -> None:
+        pass
+
+    
 if __name__ == "__main__":
     osl = OpenSourceLeg(frequency=200)
 
